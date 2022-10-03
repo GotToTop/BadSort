@@ -5,4 +5,5 @@ var maxVal = intArray.Max();
 var rng = new Random();
 for (int i = 0; i < intArray.Length; i++) { 
   intArray[i] = rng.Next(0, maxVal+1);
+  Console.WriteLine(intArray[i]);
 }
